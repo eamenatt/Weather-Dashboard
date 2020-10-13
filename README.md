@@ -1,5 +1,8 @@
 # weather-app
 
+This project is a simple Weather Dashboard constructed using HTML, CSS, and JavaScript. It accesses the openWeather API to display the useres current weather data along with a 5 day forecast. The application also allows the user to search for a city to display it's weather data and 5 day forecast. 
+
+
 User Story
 AS A traveler
 I WANT to see the weather outlook for multiple cities
@@ -19,3 +22,6 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 WHEN I open the weather dashboard
 THEN I am presented with the last searched city forecast
+
+![Screenshot 1](https://octodex.github.com/images/yaktocat.png)
+![Screenshot 2](https://octodex.github.com/images/yaktocat.png)
