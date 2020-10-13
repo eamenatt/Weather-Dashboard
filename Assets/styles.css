@@ -1,9 +1,53 @@
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
 aside {
     background-color: lightgrey;
-    height: 100%
+    height: 100%;
+    padding-bottom: 5px;
+
 }
 
 .searchBar {
     font-weight: bold;
 
 }
+
+.header {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 4px;
+    padding: 0px;
+
+}
+
+.city-date {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.forecast-date {
+    font-weight: bold;
+    color: white;
+}
+
+.forecast-icon {
+    object-fit: contain;
+}
+
+.forecast {
+    background-color:#007bff;
+}
+
+.cardText {
+    color: white;
+}
+
+

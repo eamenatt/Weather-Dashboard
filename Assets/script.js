@@ -20,8 +20,8 @@ function getPosition(cityName) {
 function forecastDisplay(city, day) {
     var date = moment().add(day, 'days').format("M/D/YY");
     var dateDisplay = $("<p class='forecast-date'>").text(date);
-    var temp = $("<p>").text(`Temp: ${kelvinToFahrenheit(city.daily[day].temp.day)} °F`);
-    var humidity = $("<p>").text(`Humidity: ${city.daily[day].humidity}%`);
+    var temp = $("<p class='cardText'>").text(`Temperature: ${kelvinToFahrenheit(city.daily[day].temp.day)} °F`);
+    var humidity = $("<p class='cardText'>").text(`Humidity: ${city.daily[day].humidity}%`);
     var weatherPic = $("<img class='forecast-icon'>").attr("src", `http://openweathermap.org/img/w/${city.daily[day].weather[0].icon}.png`);
     weatherPic.attr("alt", city.current.weather[0].main);
 
@@ -41,13 +41,13 @@ function searchCity(lat, lon, cityName) {
         persistLastCity(lat, lon, cityName);
         clearCityInfo();
 
-        var cityAndDate = $("<p class='city-and-date'>").text(`${capitalize(cityName)} (${today})`);
+        var cityAndDate = $("<p class='city-date'>").text(`${capitalize(cityName)} (${today})`);
         var weatherPic = $("<img class='weather-icon'>").attr("src", `http://openweathermap.org/img/w/${response.current.weather[0].icon}.png`);
-        weatherPic.attr("alt", response.current.weather[0].main);
+        // weatherPic.attr("alt", response.current.weather[0].main);
         cityAndDate.append(weatherPic);
-        var temp = $("<p>").text(`temp: ${kelvinToFahrenheit(response.current.temp)} °F`);
+        var temp = $("<p>").text(`Temperature: ${kelvinToFahrenheit(response.current.temp)} °F`);
         var humidity = $("<p>").text(`Humidity: ${response.current.humidity}%`);
-        var windSpeed = $("<p>").text(`Wind Speed: ${response.current.wind_speed} MPH`);
+        var windSpeed = $("<p>").text(`Wind Speed: ${response.current.wind_speed} mph`);
 
         var uvIndex = $("<p>").html(`UV Index: <span style="color:white; background-color:${uvColor(parseFloat(response.current.uvi))}">${response.current.uvi}</span>`);
 
