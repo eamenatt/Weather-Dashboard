@@ -23,5 +23,5 @@ THEN I am again presented with current and future conditions for that city
 WHEN I open the weather dashboard
 THEN I am presented with the last searched city forecast
 
-![Screenshot 1](Assets\Screenshots\weatherAppSS.PNG)
-![Screenshot 2](Assets\Screenshots\weatherAppSS2.PNG)
+![Screenshot 1](http(s://user-images.githubusercontent.com/68793022/95927299-57874f00-0d8c-11eb-9779-159c3b98f256.PNG)
+![Screenshot 2](https://user-images.githubusercontent.com/68793022/95927308-59511280-0d8c-11eb-987c-5b881142bbdd.PNG)
