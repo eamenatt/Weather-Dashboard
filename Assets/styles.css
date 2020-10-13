@@ -4,14 +4,8 @@ p {
 
 
 aside {
-    background-color: lightgrey;
-    height: 100%;
+    background-color: whitesmoke;
     padding-bottom: 5px;
-
-}
-
-.searchBar {
-    font-weight: bold;
 
 }
 
@@ -44,10 +38,29 @@ aside {
 
 .forecast {
     background-color:#007bff;
+    margin: 5px;
 }
 
 .cardText {
     color: white;
 }
+
+#searchButton {
+    text-align: left;
+}
+
+.searched-city {
+    background-color: white;
+    padding: 4px;
+    color: black;
+    margin-top: 5px;
+
+}
+
+.card {
+    margin-top: 5px;
+    
+}
+
 
 
