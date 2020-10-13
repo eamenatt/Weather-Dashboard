@@ -1,14 +1,14 @@
-# weather-Dashboard
+# Weather-Dashboard
 
 This project is a simple Weather Dashboard constructed using HTML, CSS, and JavaScript. It accesses the openWeather API to display the useres current weather data along with a 5 day forecast. The application also allows the user to search for a city to display it's weather data and 5 day forecast. 
 
 
-User Story
+# User Story
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 
-Acceptance Criteria
+# Acceptance Criteria
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history
@@ -23,5 +23,6 @@ THEN I am again presented with current and future conditions for that city
 WHEN I open the weather dashboard
 THEN I am presented with the last searched city forecast
 
+# Screenshots
 ![Screenshot 1](https://user-images.githubusercontent.com/68793022/95927299-57874f00-0d8c-11eb-9779-159c3b98f256.PNG)
 ![Screenshot 2](https://user-images.githubusercontent.com/68793022/95927308-59511280-0d8c-11eb-987c-5b881142bbdd.PNG)
