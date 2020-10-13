@@ -1,4 +1,4 @@
-# weather-app
+# weather-Dashboard
 
 This project is a simple Weather Dashboard constructed using HTML, CSS, and JavaScript. It accesses the openWeather API to display the useres current weather data along with a 5 day forecast. The application also allows the user to search for a city to display it's weather data and 5 day forecast. 
 
