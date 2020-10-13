@@ -49,7 +49,7 @@ function searchCity(lat, lon, cityName) {
         var humidity = $("<p>").text(`Humidity: ${response.current.humidity}%`);
         var windSpeed = $("<p>").text(`Wind Speed: ${response.current.wind_speed} MPH`);
 
-        var uvIndex = $("<p>").html(`UV Index: <span style="color:white; background-color:${uvIndexStyler(parseFloat(response.current.uvi))}">${response.current.uvi}</span>`);
+        var uvIndex = $("<p>").html(`UV Index: <span style="color:white; background-color:${uvColor(parseFloat(response.current.uvi))}">${response.current.uvi}</span>`);
 
         $('.search-results').append(cityAndDate, temp, humidity, windSpeed, uvIndex);
 
@@ -144,7 +144,7 @@ function capitalize(cityName) {
     return split.join(' ');
 }
 
-function uvIndexStyler(uvIndex) {
+function uvColor(uvIndex) {
     if (uvIndex < 4) {
         return "green";
     } else
